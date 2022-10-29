@@ -1,0 +1,5 @@
+x := readInt(0,1);
+y := 8;
+x := x + 8;
+y := y + 9
+(* answer : YES *)

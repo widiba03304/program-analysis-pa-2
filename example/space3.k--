@@ -1,0 +1,15 @@
+x := 24;
+y := 0;
+(repeat (  
+  x := x + (-8);
+  (if(x) then
+    y := y
+  else
+    y := 1
+  )
+  ) until (y)
+);
+y := y + 8
+
+(* answer : YES *)
+

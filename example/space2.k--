@@ -1,0 +1,9 @@
+x := readInt(768, 769);
+y := 1;
+(if ( x )
+  then y := y + 768
+  else y := 13
+);
+x := x + 24
+(* answer : YES *)
+
